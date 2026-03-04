@@ -12,3 +12,4 @@ Thumbs.db
 
 # Los archivos .txt de datos NO se ignoran
 # porque son parte del funcionamiento del proyecto
+/target/
