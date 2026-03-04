@@ -4,6 +4,7 @@
 
 package sistemanotas;
 
+import sistemanotas.view.Menu;
 /**
  *
  * @author ALFREDOBAUTISTAROMER
@@ -11,6 +12,7 @@ package sistemanotas;
 public class SistemaNotas {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        Menu menu = new Menu();
+        menu.iniciar();
     }
 }
